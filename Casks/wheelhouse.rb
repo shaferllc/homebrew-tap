@@ -1,8 +1,8 @@
 cask "wheelhouse" do
-  version "0.1"
+  version "0.1.1"
   sha256 :no_check
 
-  url "https://github.com/shaferllc/wheelhouse/releases/download/v#{version}/Wheelhouse.zip",
+  url "https://github.com/shaferllc/wheelhouse/releases/download/v#{version}/Wheelhouse.dmg",
       verified: "github.com/shaferllc/wheelhouse/"
   name "Wheelhouse"
   desc "Native macOS cockpit for steering a fleet of products"
